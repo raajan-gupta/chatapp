@@ -1,0 +1,32 @@
+.mid-section{
+    height: 585px;
+}
+
+.first {
+    height: 92%;
+    overflow: auto;
+}
+
+.first::-webkit-scrollbar {
+    display: none;
+}
+.second{
+    height: 8%;
+}
+
+.alert-primary,.alert-secondary,.alert-danger{
+    width: 70%;
+    clear: both;
+    text-align: left;
+}
+
+.alert-secondary{
+    float: right;
+    text-align: right;
+}
+
+.alert-danger{
+   margin: auto;
+   margin-bottom: 20px;
+   text-align: center;
+}
